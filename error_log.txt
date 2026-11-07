@@ -1,0 +1,258 @@
+[24-Dec-2025 16:49:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'u247530633_dashboard.users' doesn't exist in /home/u247530633/domains/dashbord.astoe.org/public_html/login.php:37
+Stack trace:
+#0 /home/u247530633/domains/dashbord.astoe.org/public_html/login.php(37): mysqli->prepare()
+#1 {main}
+  thrown in /home/u247530633/domains/dashbord.astoe.org/public_html/login.php on line 37
+[24-Dec-2025 16:50:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'u247530633_dashboard.users' doesn't exist in /home/u247530633/domains/dashbord.astoe.org/public_html/login.php:37
+Stack trace:
+#0 /home/u247530633/domains/dashbord.astoe.org/public_html/login.php(37): mysqli->prepare()
+#1 {main}
+  thrown in /home/u247530633/domains/dashbord.astoe.org/public_html/login.php on line 37
+[24-Dec-2025 17:00:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'role' in 'SELECT' in /home/u247530633/domains/dashbord.astoe.org/public_html/login.php:42
+Stack trace:
+#0 /home/u247530633/domains/dashbord.astoe.org/public_html/login.php(42): mysqli->prepare()
+#1 {main}
+  thrown in /home/u247530633/domains/dashbord.astoe.org/public_html/login.php on line 42
+[24-Dec-2025 17:00:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'role' in 'SELECT' in /home/u247530633/domains/dashbord.astoe.org/public_html/login.php:42
+Stack trace:
+#0 /home/u247530633/domains/dashbord.astoe.org/public_html/login.php(42): mysqli->prepare()
+#1 {main}
+  thrown in /home/u247530633/domains/dashbord.astoe.org/public_html/login.php on line 42
+[24-Dec-2025 17:02:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'role' in 'SELECT' in /home/u247530633/domains/dashbord.astoe.org/public_html/login.php:42
+Stack trace:
+#0 /home/u247530633/domains/dashbord.astoe.org/public_html/login.php(42): mysqli->prepare()
+#1 {main}
+  thrown in /home/u247530633/domains/dashbord.astoe.org/public_html/login.php on line 42
+[19-Feb-2026 14:36:25 Europe/Berlin] Get setting error: Table 'loan.system_settings' doesn't exist
+[19-Feb-2026 14:36:25 Europe/Berlin] Get setting error: Table 'loan.system_settings' doesn't exist
+[19-Feb-2026 14:36:25 Europe/Berlin] Get setting error: Table 'loan.system_settings' doesn't exist
+[19-Feb-2026 14:36:25 Europe/Berlin] Get setting error: Table 'loan.system_settings' doesn't exist
+[19-Feb-2026 14:36:25 Europe/Berlin] Get setting error: Table 'loan.system_settings' doesn't exist
+[19-Feb-2026 14:36:25 Europe/Berlin] Get setting error: Table 'loan.system_settings' doesn't exist
+[19-Feb-2026 14:36:25 Europe/Berlin] Get setting error: Table 'loan.system_settings' doesn't exist
+[19-Feb-2026 14:36:52 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Invalid default value for 'expires_at' in C:\xampp\htdocs\Loan Management Web application\setup.php:355
+Stack trace:
+#0 C:\xampp\htdocs\Loan Management Web application\setup.php(355): mysqli->query('CREATE TABLE IF...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Loan Management Web application\setup.php on line 355
+[19-Feb-2026 14:37:01 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Invalid default value for 'expires_at' in C:\xampp\htdocs\Loan Management Web application\setup.php:355
+Stack trace:
+#0 C:\xampp\htdocs\Loan Management Web application\setup.php(355): mysqli->query('CREATE TABLE IF...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Loan Management Web application\setup.php on line 355
+[19-Feb-2026 14:37:12 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'loan.login_attempts' doesn't exist in C:\xampp\htdocs\Loan Management Web application\config.php:152
+Stack trace:
+#0 C:\xampp\htdocs\Loan Management Web application\config.php(152): mysqli->prepare('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\Loan Management Web application\login.php(99): checkLoginAttempts('admin')
+#2 {main}
+  thrown in C:\xampp\htdocs\Loan Management Web application\config.php on line 152
+[19-Feb-2026 14:37:15 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'loan.login_attempts' doesn't exist in C:\xampp\htdocs\Loan Management Web application\config.php:152
+Stack trace:
+#0 C:\xampp\htdocs\Loan Management Web application\config.php(152): mysqli->prepare('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\Loan Management Web application\login.php(99): checkLoginAttempts('admin')
+#2 {main}
+  thrown in C:\xampp\htdocs\Loan Management Web application\config.php on line 152
+[19-Feb-2026 14:40:25 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Invalid default value for 'expires_at' in C:\xampp\htdocs\Loan Management Web application\setup.php:355
+Stack trace:
+#0 C:\xampp\htdocs\Loan Management Web application\setup.php(355): mysqli->query('CREATE TABLE IF...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Loan Management Web application\setup.php on line 355
+[24-Jul-2026 19:41:48 Europe/Berlin] Database error: Access denied for user 'u247530633_isp'@'localhost' (using password: YES)
+[05-Sep-2026 22:55:42 Europe/Berlin] Database error: Access denied for user 'u512993505_isp'@'localhost' (using password: YES)
+[05-Sep-2026 22:55:50 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'u512993505_isp'@'localhost' (using password: YES) in C:\xampp\htdocs\ISP BILLING SYSTEM\setup.php:52
+Stack trace:
+#0 C:\xampp\htdocs\ISP BILLING SYSTEM\setup.php(52): mysqli->__construct('localhost', 'u512993505_isp', Object(SensitiveParameterValue), 'u512993505_isp')
+#1 {main}
+  thrown in C:\xampp\htdocs\ISP BILLING SYSTEM\setup.php on line 52
+[05-Sep-2026 22:55:53 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'u512993505_isp'@'localhost' (using password: YES) in C:\xampp\htdocs\ISP BILLING SYSTEM\setup.php:52
+Stack trace:
+#0 C:\xampp\htdocs\ISP BILLING SYSTEM\setup.php(52): mysqli->__construct('localhost', 'u512993505_isp', Object(SensitiveParameterValue), 'u512993505_isp')
+#1 {main}
+  thrown in C:\xampp\htdocs\ISP BILLING SYSTEM\setup.php on line 52
+[05-Sep-2026 22:57:28 Europe/Berlin] Database error: Access denied for user 'u512993505_isp'@'localhost' (using password: YES)
+[05-Sep-2026 23:04:32 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[05-Sep-2026 23:04:33 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[05-Sep-2026 23:04:33 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[05-Sep-2026 23:04:33 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[05-Sep-2026 23:05:26 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[05-Sep-2026 23:05:26 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[05-Sep-2026 23:05:26 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[05-Sep-2026 23:05:26 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[05-Sep-2026 23:10:06 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[05-Sep-2026 23:10:07 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[05-Sep-2026 23:10:07 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[05-Sep-2026 23:10:07 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[05-Sep-2026 23:19:11 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[05-Sep-2026 23:19:12 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[05-Sep-2026 23:19:12 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[05-Sep-2026 23:19:12 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[05-Sep-2026 23:21:27 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[05-Sep-2026 23:21:27 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[05-Sep-2026 23:21:29 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[05-Sep-2026 23:21:29 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[05-Sep-2026 23:21:30 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[05-Sep-2026 23:21:30 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[05-Sep-2026 23:29:48 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[05-Sep-2026 23:29:48 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[05-Sep-2026 23:29:48 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[05-Sep-2026 23:29:48 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[05-Sep-2026 23:30:16 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[05-Sep-2026 23:30:26 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[05-Sep-2026 23:30:26 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[05-Sep-2026 23:30:26 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[05-Sep-2026 23:30:29 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[05-Sep-2026 23:30:29 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[05-Sep-2026 23:30:29 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[05-Sep-2026 23:30:29 Europe/Berlin] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:34:58 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:35:19 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:35:19 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:36:07 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:36:07 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:36:17 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:36:17 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:36:17 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:37:02 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:37:02 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:40:11 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:40:12 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:40:12 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:40:12 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:40:17 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:40:17 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:40:17 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:40:17 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:43:42 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:45:19 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:45:21 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:45:21 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:45:21 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:45:22 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:45:22 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:45:22 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:45:22 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:46:04 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:46:04 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:46:04 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:46:04 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:46:15 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:46:16 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:46:16 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:46:16 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:47:46 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:47:46 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:47:46 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:47:46 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:47:48 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:47:49 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:47:49 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:47:49 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:49:14 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:49:14 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:49:14 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:49:14 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:49:15 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:49:16 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:49:16 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:49:16 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:50:13 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:50:14 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:50:14 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:50:14 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:50:15 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:50:15 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:50:15 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:50:15 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:51:36 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:51:37 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:51:37 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:51:37 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:51:38 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:51:38 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:51:38 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:51:38 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:55:55 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:55:56 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:55:56 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:55:56 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:57:41 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:57:43 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:57:43 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:57:43 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:58:13 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:58:14 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:58:14 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:58:14 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:58:23 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:58:24 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:58:24 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:58:24 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:58:33 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:58:33 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:58:33 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:58:33 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:58:42 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:58:43 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:58:43 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 02:58:43 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 03:02:12 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 03:02:12 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 03:02:12 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 03:02:12 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 03:05:29 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 03:05:30 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 03:05:30 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 03:05:30 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 03:05:55 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 03:05:56 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 03:05:56 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 03:05:56 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 03:06:25 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 03:06:26 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 03:06:26 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 03:06:26 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 03:06:41 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 03:06:42 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 03:06:42 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 03:06:42 Asia/Karachi] PHP Warning:  Undefined variable $dashVariant in C:\xampp\htdocs\ISP BILLING SYSTEM\dashboard.php on line 19
+[06-Sep-2026 22:27:38 Asia/Karachi] Database error: MySQL server has gone away
+[06-Sep-2026 22:27:38 Asia/Karachi] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=18188 in C:\xampp\htdocs\ISP BILLING SYSTEM\config.php on line 465
+[06-Sep-2026 22:27:38 Asia/Karachi] Database error: MySQL server has gone away
+[06-Sep-2026 22:27:43 Asia/Karachi] Database error: No connection could be made because the target machine actively refused it
+[06-Sep-2026 22:27:47 Asia/Karachi] Database error: No connection could be made because the target machine actively refused it
+[06-Sep-2026 22:27:57 Asia/Karachi] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ISP BILLING SYSTEM\setup.php:52
+Stack trace:
+#0 C:\xampp\htdocs\ISP BILLING SYSTEM\setup.php(52): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'isp')
+#1 {main}
+  thrown in C:\xampp\htdocs\ISP BILLING SYSTEM\setup.php on line 52
+[06-Sep-2026 22:44:41 Asia/Karachi] Database error: No connection could be made because the target machine actively refused it
+[06-Sep-2026 22:45:41 Asia/Karachi] Database error: No connection could be made because the target machine actively refused it
+[06-Sep-2026 22:46:41 Asia/Karachi] Database error: No connection could be made because the target machine actively refused it
+[06-Sep-2026 22:47:41 Asia/Karachi] Database error: No connection could be made because the target machine actively refused it
+[06-Sep-2026 22:47:54 Asia/Karachi] Database error: No connection could be made because the target machine actively refused it
+[06-Sep-2026 23:13:48 Asia/Karachi] CollectionsRuns.php error: Unknown column 'c.name' in 'field list'
+[07-Nov-2026 21:58:07 Asia/Karachi] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'isp' in C:\xampp\htdocs\isp\setup.php:52
+Stack trace:
+#0 C:\xampp\htdocs\isp\setup.php(52): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'isp')
+#1 {main}
+  thrown in C:\xampp\htdocs\isp\setup.php on line 52
+[07-Nov-2026 22:00:35 Asia/Karachi] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'isp' in C:\xampp\htdocs\isp\setup.php:52
+Stack trace:
+#0 C:\xampp\htdocs\isp\setup.php(52): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'isp')
+#1 {main}
+  thrown in C:\xampp\htdocs\isp\setup.php on line 52
+[07-Nov-2026 22:01:26 Asia/Karachi] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'isp' in C:\xampp\htdocs\isp\setup.php:52
+Stack trace:
+#0 C:\xampp\htdocs\isp\setup.php(52): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'isp')
+#1 {main}
+  thrown in C:\xampp\htdocs\isp\setup.php on line 52
+[07-Nov-2026 22:02:09 Asia/Karachi] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'isp' in C:\xampp\htdocs\isp\setup.php:52
+Stack trace:
+#0 C:\xampp\htdocs\isp\setup.php(52): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'isp')
+#1 {main}
+  thrown in C:\xampp\htdocs\isp\setup.php on line 52
+[07-Nov-2026 22:02:15 Asia/Karachi] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown database 'isp' in C:\xampp\htdocs\isp\setup.php:52
+Stack trace:
+#0 C:\xampp\htdocs\isp\setup.php(52): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'isp')
+#1 {main}
+  thrown in C:\xampp\htdocs\isp\setup.php on line 52
