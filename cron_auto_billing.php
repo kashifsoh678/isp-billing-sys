@@ -6,11 +6,8 @@
  *
  * Automatic Monthly Bill Generator
  * --------------------------------
- * Hostinger cron entry: run daily at 00:05
- *   /usr/bin/php /home/USER/public_html/cron_auto_billing.php
- *
- * Or via curl (if cron supports HTTP):
- *   curl -s https://yourdomain.com/cron_auto_billing.php?token=AUTOBILL
+ * Run daily at 00:05 with PHP CLI:
+ *   /usr/bin/php /path/to/isp-billing-sys/cron_auto_billing.php
  *
  * Behavior:
  *   - Reads system_settings keys: auto_billing_enabled, auto_billing_day,

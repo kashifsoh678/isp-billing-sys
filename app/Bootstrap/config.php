@@ -11,6 +11,10 @@ if (!defined('APP_ROOT')) {
     define('APP_ROOT', dirname(__DIR__, 2));
 }
 
+if (!defined('APP_PUBLIC_ROOT')) {
+    define('APP_PUBLIC_ROOT', APP_ROOT . '/public');
+}
+
 require_once APP_ROOT . '/config/database.php';
 
 // Error handling - disable display_errors in production
@@ -63,7 +67,7 @@ if (!isset($_SESSION['user_id']) && isset($_COOKIE['remember_token'])) {
 
 // asset url + mtime cache-buster — edit styles.css and every browser refetches it, no manual ?v= bumping
 function asset($file) {
-    $path = APP_ROOT . '/' . basename($file);
+    $path = APP_PUBLIC_ROOT . '/' . basename($file);
     return $file . '?v=' . (is_file($path) ? filemtime($path) : time());
 }
 
@@ -693,7 +697,7 @@ function isMaintenanceMode() {
 // Profile Image Upload Functions
 function uploadProfileImage($file, $user_id) {
     // Create uploads directory if it doesn't exist
-    $upload_dir = APP_ROOT . '/uploads/profiles/';
+    $upload_dir = APP_PUBLIC_ROOT . '/uploads/profiles/';
     if (!file_exists($upload_dir)) {
         mkdir($upload_dir, 0755, true);
     }
@@ -736,8 +740,8 @@ function uploadProfileImage($file, $user_id) {
 }
 
 function deleteProfileImage($filepath) {
-    if ($filepath && file_exists(APP_ROOT . '/' . $filepath)) {
-        return unlink(APP_ROOT . '/' . $filepath);
+    if ($filepath && file_exists(APP_PUBLIC_ROOT . '/' . $filepath)) {
+        return unlink(APP_PUBLIC_ROOT . '/' . $filepath);
     }
     return false;
 }

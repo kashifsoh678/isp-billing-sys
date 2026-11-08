@@ -12001,7 +12001,7 @@ body.dark-mode .ms-miss .ms-k {
 .stats-grid,
 .dash-kpi-grid {
     display: grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 14px;
     margin-bottom: 20px;
     align-items: stretch;
