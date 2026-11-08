@@ -1168,9 +1168,12 @@ $curSym   = getSetting('currency_symbol', '$');
                     <div class="chevron-tab cv-all active"         data-status="all"         role="tab" tabindex="0">
                         <i class="fas fa-list"></i> All Bills <span class="cv-count" id="cv-c-all">0</span>
                     </div>
-                    <div class="chevron-tab cv-outstanding"        data-status="outstanding" role="tab" tabindex="0">
-                        <i class="fas fa-hourglass-half"></i> Due Bills <span class="cv-count" id="cv-c-outstanding">0</span>
+                    <div class="chevron-tab cv-outstanding "         data-status="outstanding"         role="tab" tabindex="0">
+                        <i class="fas fa-hourglass-half"></i> Due <span class="cv-count" id="cv-c-outstanding">0</span>
                     </div>
+                    <!-- <div class="chevron-tab cv-outstanding"        data-status="outstanding" role="tab" tabindex="0">
+                        <i class="fas fa-hourglass-half"></i> Due Bills <span class="cv-count" id="cv-c-outstanding">0</span>
+                    </div> -->
                     <div class="chevron-tab cv-unpaid"             data-status="unpaid"      role="tab" tabindex="0">
                         <i class="fas fa-circle"></i> Pending <span class="cv-count" id="cv-c-unpaid">0</span>
                     </div>
